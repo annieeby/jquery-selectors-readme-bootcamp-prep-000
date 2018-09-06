@@ -16,7 +16,7 @@ function divSelector() {
 }
 
 function firstListItem() {
-  return $('#pic-list ul').first() 
+  return $('ul #pic-list ul').first() 
 }
 // "firstListItem() should return the first list item in the unordered list"
 //https://api.jquery.com/first/
