@@ -1,22 +1,22 @@
 // declare your functions here...
 function paragraphSelector() {
-  $('p-tag')
+  return $('p-tag')
 }
 
 function lastImageSelector() {
-  $('img:last-child')
+  return $('img:last-child')
 }
 
 function ninjaBabySelector() {
-  $('#baby-ninja')
+  return $('#baby-ninja')
 }
 
 function divSelector() {
-  $('.pics')
+  return $('.pics')
 }
 
 function firstListItem() {
-  $('#pic-list ul').first() 
+  return $('#pic-list ul').first() 
 }
 // "firstListItem() should return the first list item in the unordered list"
 //https://api.jquery.com/first/
