@@ -3,7 +3,9 @@ function paragraphSelector() {
   $('p-tag')
 }
 
-function lastImageSelector() 
+function lastImageSelector() {
+  $('img:last-child')
+}
 
 function ninjaBabySelector() {
   $('#baby-ninja')
